@@ -1,0 +1,91 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  background: #062E4F;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem 1rem 1rem;
+  position: relative;
+}
+
+.top-curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  background: white;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.profile-photo img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-top: -40px;
+  z-index: 1;
+  position: relative;
+}
+
+h1 {
+  margin: 10px 0 0 0;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 2rem;
+}
+
+.perfil {
+  margin-bottom: 2rem;
+}
+
+.datos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.col {
+  flex: 1 1 45%;
+}
+
+h3 {
+  color: #062E4F;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  background: #062E4F;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
